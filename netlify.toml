@@ -9,5 +9,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "my-react-netlify-app\public\index.html"
   status = 200
