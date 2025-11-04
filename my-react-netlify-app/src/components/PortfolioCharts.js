@@ -49,7 +49,7 @@ const PortfolioCharts = () => {
 
   // Custom Label para o gráfico de barras
   const CustomBarLabel = (props) => {
-    const { x, y, width, height, value, index } = props;
+    const { x, y, width, height, index } = props;
     const budget = ahpData[index]?.budget || 0;
     return (
       <text
